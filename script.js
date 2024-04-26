@@ -11,4 +11,4 @@ const currentTime = hours + ":" + minutes;
 
 document.getElementById("tikklok").innerHTML=currentTime;
 }
-setInterval(tik, 1000);
+setInterval(tik, 5000);
