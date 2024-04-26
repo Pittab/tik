@@ -1,10 +1,15 @@
+.container {
+      display: grid;
+      height: 100vh; /* Set the height of the grid container to the full viewport height */
+      place-items: center; /* Center the grid items both horizontally and vertically */
+    }
 body{
-  margin-left: auto;
-  margin-right: auto;
   background-color:#24273a;
-  text-align:center;
   font-family:'Courier New', monospace;
   color:#8aadf4;
   font-weight:bolder;
   font-size:20vw;
+}
+.center{
+  text-align:center
 }
